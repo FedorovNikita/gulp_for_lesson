@@ -1,0 +1,14 @@
+// vars color
+$main-backgorund-color: #cccccc;
+
+@import 'fonts';
+
+// fonts
+$ubuntu-bold: "ubuntuBold", Arial, sans-serif;
+
+body {
+  background-color: $main-backgorund-color;
+  font-family: $ubuntu-bold;
+}
+
+@import 'header';

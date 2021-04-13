@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'ubuntuBold';
+  src: url("../fonts/ubuntubold.woff") format("woff"), url("../fonts/ubuntubold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+body {
+  background-color: #cccccc;
+  font-family: "ubuntuBold", Arial, sans-serif; }
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZvbnRzLnNjc3MiLCJtYWluLnNjc3MiLCJoZWFkZXIuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHlCQUF5QjtFQUN6QixxR0FDcUQ7RUFDckQsbUJBQW1CO0VBQ25CLGtCQUFrQjtFQUNsQixrQkFBa0IsRUFBQTs7QUNFcEI7RUFDRSx5QkFSNkI7RUFTN0IsNENBSjJDLEVBQUE7O0FDTjdDO0VBQ0Usb0JBQWE7RUFBYixvQkFBYTtFQUFiLGFBQWEsRUFBQTs7QUFHZjtFQUNFLG9CQUFhO0VBQWIsb0JBQWE7RUFBYixhQUFhLEVBQUEiLCJmaWxlIjoibWFpbi5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAZm9udC1mYWNlIHtcclxuICBmb250LWZhbWlseTogJ3VidW50dUJvbGQnO1xyXG4gIHNyYzogdXJsKCcuLi9mb250cy91YnVudHVib2xkLndvZmYnKSBmb3JtYXQoJ3dvZmYnKSxcclxuICAgICAgIHVybCgnLi4vZm9udHMvdWJ1bnR1Ym9sZC53b2ZmMicpIGZvcm1hdCgnd29mZjInKTtcclxuICBmb250LXdlaWdodDogbm9ybWFsO1xyXG4gIGZvbnQtc3R5bGU6IG5vcm1hbDtcclxuICBmb250LWRpc3BsYXk6IHN3YXA7XHJcbn1cclxuIiwiLy8gdmFycyBjb2xvclxyXG4kbWFpbi1iYWNrZ29ydW5kLWNvbG9yOiAjY2NjY2NjO1xyXG5cclxuQGltcG9ydCAnZm9udHMnO1xyXG5cclxuLy8gZm9udHNcclxuJHVidW50dS1ib2xkOiBcInVidW50dUJvbGRcIiwgQXJpYWwsIHNhbnMtc2VyaWY7XHJcblxyXG5ib2R5IHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAkbWFpbi1iYWNrZ29ydW5kLWNvbG9yO1xyXG4gIGZvbnQtZmFtaWx5OiAkdWJ1bnR1LWJvbGQ7XHJcbn1cclxuXHJcbkBpbXBvcnQgJ2hlYWRlcic7IiwiLmhlYWRlciB7XHJcbiAgZGlzcGxheTogZmxleDtcclxufVxyXG5cclxuLmhlYWRlcl9fbWVudSB7XHJcbiAgZGlzcGxheTogZmxleDsgXHJcbn0iXX0= */
