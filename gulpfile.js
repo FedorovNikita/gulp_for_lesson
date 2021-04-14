@@ -9,7 +9,6 @@ const img = require('./gulp/img');
 const webpImg = require('./gulp/webp');
 const svg = require('./gulp/svg');
 const clean = require('./gulp/clean');
-const serve = require('./gulp/browserSync');
 
 task('watch', () => {
   watch('src/**.html', series(html)).on('change', browserSync.reload);
@@ -21,6 +20,12 @@ task('watch', () => {
   watch('src/img/svg/*.svg', series(svg)).on('change', browserSync.reload);
 });
 
-task('default', series(clean, parallel(html, scss, script, scriptLib, img, webpImg, svg, fonts), parallel('watch', serve)));
+task('browser-sync', () => {
+  browserSync.init({
+    server: 'build'
+  });
+});
+
+task('default', series(clean, parallel(html, scss, script, scriptLib, img, webpImg, svg, fonts), parallel('watch', 'browser-sync')));
 task('build', series(clean, parallel(html, scss, script, scriptLib, img, webpImg, svg, fonts)));
 
